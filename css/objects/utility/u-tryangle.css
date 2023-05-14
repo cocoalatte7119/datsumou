@@ -1,0 +1,11 @@
+@media screen and (max-width: 375px) {
+  .u-tryangle {
+    margin: 10px auto 20px auto;
+    text-align: center;
+  }
+  .tryangle_img {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=u-tryangle.css.map */
