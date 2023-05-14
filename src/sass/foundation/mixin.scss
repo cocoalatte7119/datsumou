@@ -1,0 +1,15 @@
+//ブレイクポイント
+$mid: 768px;
+$sm: 375px;
+
+@mixin tab {
+    @media screen and (max-width: $mid) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media screen and (max-width: $sm) {
+        @content;
+    }
+}

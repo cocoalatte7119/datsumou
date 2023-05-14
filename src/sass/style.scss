@@ -1,0 +1,25 @@
+//foundation//
+@use "foundation/reset.scss";
+@use "foundation/base.scss";
+@use "foundation/variable.scss";
+@use "foundation/mixin.scss";
+
+
+//layout//
+@use "layout/l-top.scss";
+@use "layout/l-question.scss";
+@use "layout/l-footer.scss";
+@use "layout/l-result.scss";
+
+
+//object//
+
+//component
+@use "objects/components/question_btn.scss";
+
+//project
+
+
+//utility
+@use "objects/utility/u-tryangle.scss";
+@use "objects/utility/u-btn.scss";
