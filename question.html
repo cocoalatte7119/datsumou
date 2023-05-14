@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="src/js/answer.js"></script>
+    <script src="src/js/test.js"></script>
+    <title>脱毛プロジェクト</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <main>
+            <section id="q1" class="question_contents is-active">
+                <h2 class="question_title">
+                    質問１
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        通いたい都道府県はどちらですか？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="1">東京</button>
+                    </div>
+                    <!-- <div class="u-btn question_btn">
+                        <button>回答２</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button>回答３</button>
+                    </div> -->
+                </div>
+            </section>
+            <section id="q2" class="question_contents">
+                <h2 class="question_title">
+                    質問２
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        通いたいエリアはどちらですか？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="10">渋谷区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="20">新宿区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="30">豊島区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="40">中央区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="50">台東区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="60">品川区</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="70">その他</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+            <section id="q3" class="question_contents">
+                <h2 class="question_title">
+                    質問３
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        ご希望の脱毛はどちらですか？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="100">やや痛むけど短期で</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="200">長期で痛み控えめ</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+            <section id="q4" class="question_contents">
+                <h2 class="question_title">
+                    質問４
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        どの部位の脱毛をご希望ですか？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="1000">ワキ</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="2000">VIO</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="3000">腕</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="4000">脚</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="5000">顔</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="6000">全身</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="7000">うなじ</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="8000">まだ決まっていない</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="9000">その他</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+            <section id="q5" class="question_contents">
+                <h2 class="question_title">
+                    質問５
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        あなたは...？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="10000">学生</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="20000">社会人</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="30000">その他</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+            <section id="q6" class="question_contents">
+                <h2 class="question_title">
+                    質問６
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        サロンやクリニックでの脱毛は
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="100000">はじめて</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="200000">乗り換え</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select" data-point="300000">その他</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+            <section id="q7" class="question_contents">
+                <h2 class="question_title">
+                    質問７
+                </h2>
+                <div class="question_txt">
+                    <p>
+                        通い方のご希望はどちらですか？
+                    </p>
+                </div>
+                <div class="question_btns">
+                    <div class="u-btn question_btn">
+                        <button class="select submit" data-point="1000000">回数制</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select submit" data-point="2000000">通い放題</button>
+                    </div>
+                    <div class="u-btn question_btn">
+                        <button class="select submit" data-point="3000000">都度払い</button>
+                    </div>
+                    <div class="u-btn u-btn_back question_btn">
+                        <button class="back">戻る</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <svg width="375" height="110" viewBox="0 0 375 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 49.2638H375V110H0V49.2638Z" fill="#BCFFFF" />
+                <path
+                    d="M375 47.2393C375 73.3288 291.053 89 187.5 89C83.9466 89 0 73.3288 0 47.2393C0 21.1497 83.9466 0 187.5 0C291.053 0 375 21.1497 375 47.2393Z"
+                    fill="white" />
+            </svg>
+            <div class="footer_link footer_link--home">
+                <a href="/top.html"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="footer_link footer_link--insta">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer_link footer_link--tiktok">
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
