@@ -1,9 +1,12 @@
 @use "variable.scss" as var;
 @use "mixin.scss" as mix;
 
+html {
+    background-color: var.$base-bgColor;
+}
+
 body {
     font-family: "Noto Sans JP", sans-serif;
-    background: var.$base-color;
     color: var.$font-main;
     cursor: default;
     width: 100%;
