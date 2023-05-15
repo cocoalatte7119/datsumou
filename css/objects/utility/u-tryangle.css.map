@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../src/sass/foundation/mixin.scss","../../../src/sass/objects/utility/u-tryangle.scss"],"names":[],"mappings":"AAWI;ECPA;IACI;IACA;;EAGJ;IACI","file":"u-tryangle.css"}
+{"version":3,"sourceRoot":"","sources":["../../../src/sass/objects/utility/u-tryangle.scss"],"names":[],"mappings":"AAGA;EACI;EACA;;;AAGJ;EACI","file":"u-tryangle.css"}

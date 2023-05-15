@@ -1,6 +1,9 @@
+html {
+  background-color: #E0FFFF;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
-  background: #fff;
   color: #000;
   cursor: default;
   width: 100%;

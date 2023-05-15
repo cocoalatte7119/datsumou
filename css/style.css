@@ -394,9 +394,12 @@ th {
   font-weight: bold;
 }
 
+html {
+  background-color: #E0FFFF;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
-  background: #fff;
   color: #000;
   cursor: default;
   width: 100%;
@@ -407,56 +410,66 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 375px) {
-  body {
-    width: 100%;
-  }
-  .header_img {
-    width: 100%;
-  }
-  .header_appeal-txt {
-    margin: 20px auto 0 auto;
-    text-align: center;
-  }
-  .header_appeal-txt p {
-    line-height: 30px;
-  }
+body {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100vh;
 }
-@media screen and (max-width: 375px) {
-  .question_contents {
-    display: none;
-  }
-  .is-active {
-    display: block;
-  }
-  .question_title {
-    font-size: 20px;
-    color: #88CFEA;
-    text-align: center;
-    margin: 43px auto 20px auto;
-    font-weight: 600;
-  }
-  .question_txt {
-    margin: 0 auto;
-    width: 90%;
-    background-color: #F3F3F3;
-    padding: 10px;
-    text-align: center;
-  }
-  .question_btns {
-    margin-top: 30px;
-  }
-  .question_btn:not(:first-of-type) {
-    margin-top: 20px;
-  }
+
+.header_img {
+  width: 100%;
 }
+
+.header_appeal-txt {
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+.header_appeal-txt p {
+  line-height: 30px;
+}
+
+.question_contents {
+  display: none;
+}
+
+.is-active {
+  display: block;
+}
+
+.question_title {
+  font-size: 20px;
+  color: #88CFEA;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.question_txt {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #F3F3F3;
+  padding: 10px;
+  text-align: center;
+}
+
+.question_btns {
+  margin-top: 30px;
+}
+
+.question_btn:not(:first-of-type) {
+  margin-top: 20px;
+}
+
 footer {
   margin-top: 50px;
   position: relative;
 }
 footer svg {
   position: relative;
-  z-index: -1;
 }
 
 .footer_link {
@@ -470,7 +483,7 @@ footer svg {
 }
 
 .footer_link--home {
-  left: 45px;
+  left: 40px;
 }
 
 .footer_link--insta {
@@ -488,7 +501,8 @@ footer svg {
   font-size: 35px;
   display: block !important;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 7px;
+  margin-left: -1px;
 }
 
 .fa-instagram {
@@ -499,42 +513,47 @@ footer svg {
   padding-top: 8px;
 }
 
-@media screen and (max-width: 375px) {
-  .result_contents {
-    text-align: center;
-  }
-  .result_contents h2 {
-    color: #88cfea;
-    font-size: 20px;
-    margin: 43px auto 20px auto;
-  }
-  .result_txt {
-    display: block;
-    width: 75%;
-    margin: 0 auto;
-    text-align: left;
-    background-color: #F3F3F3;
-    padding: 20px 10px;
-  }
-  .result_txt p:not(:first-of-type) {
-    margin-top: 10px;
-  }
-  .result_txt span {
-    display: block;
-  }
-  img {
-    width: 50%;
-  }
+.result_contents {
+  text-align: center;
 }
-@media screen and (max-width: 375px) {
-  .u-tryangle {
-    margin: 10px auto 20px auto;
-    text-align: center;
-  }
-  .tryangle_img {
-    width: 20%;
-  }
+.result_contents h2 {
+  color: #88cfea;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-weight: bold;
 }
+
+.result_txt {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #F3F3F3;
+  padding: 20px 10px;
+}
+.result_txt p:not(:first-of-type) {
+  margin-top: 10px;
+}
+.result_txt span {
+  display: block;
+}
+
+img {
+  width: 50%;
+}
+
+.u-tryangle {
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+
+.tryangle_img {
+  width: 20%;
+}
+
 .u-btn {
   width: 100%;
   text-align: center;
@@ -554,29 +573,27 @@ footer svg {
   box-shadow: 0px 4px 0px 0px #95BFBF;
 }
 
-@media screen and (max-width: 375px) {
-  .u-btn {
-    width: 100%;
-    text-align: center;
-  }
-  .u-btn button {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    width: 90%;
-    background-color: #C6FFFF;
-    text-align: center;
-    color: #666;
-    height: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 20px;
-    box-shadow: 0px 4px 0px 0px #95BFBF;
-  }
-  .u-btn_back button {
-    background-color: #D4D4D4;
-    box-shadow: 0px 4px 0px 0px #949494;
-  }
+.u-btn {
+  width: 100%;
+  text-align: center;
+}
+.u-btn button {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  background-color: #C6FFFF;
+  text-align: center;
+  color: #666;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0px 4px 0px 0px #95BFBF;
+}
+.u-btn_back button {
+  background-color: #D4D4D4;
+  box-shadow: 0px 4px 0px 0px #949494;
 }
 
 /*# sourceMappingURL=style.css.map */
