@@ -1,6 +1,7 @@
 footer {
   margin-top: 50px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 footer svg {
   position: relative;
