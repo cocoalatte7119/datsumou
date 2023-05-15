@@ -1,13 +1,11 @@
 @use "../../foundation/variable.scss" as var;
 @use "../../foundation/mixin.scss" as mix;
 
-@include mix.sp {
-    .u-tryangle {
-        margin: 10px auto 20px auto;
-        text-align: center;
-    }
+.u-tryangle {
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
 
-    .tryangle_img {
-        width: 20%;
-    }
+.tryangle_img {
+    width: 20%;
 }
