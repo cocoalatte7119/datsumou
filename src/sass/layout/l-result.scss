@@ -1,36 +1,38 @@
 @use "../foundation/variable.scss" as var;
 @use "../foundation/mixin.scss" as mix;
 
-@include mix.sp {
-    .result_contents {
-        text-align: center;
 
-        h2 {
-            color: var.$result-title;
-            font-size: 20px;
-            margin: 43px auto 20px auto;
-            font-weight: bold;
-        }
-    }
+.result_contents {
+    text-align: center;
 
-    .result_txt {
-        display: block;
-        width: 75%;
+    h2 {
+        color: var.$result-title;
+        font-size: 20px;
         margin: 0 auto;
-        text-align: left;
-        background-color: var.$question-bgColor;
-        padding: 20px 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        font-weight: bold;
+    }
+}
 
-        p:not(:first-of-type) {
-            margin-top: 10px;
-        }
+.result_txt {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: var.$question-bgColor;
+    padding: 20px 10px;
 
-        span {
-            display: block;
-        }
+    p:not(:first-of-type) {
+        margin-top: 10px;
     }
 
-    img {
-        width: 50%;
+    span {
+        display: block;
     }
+}
+
+img {
+    width: 50%;
 }

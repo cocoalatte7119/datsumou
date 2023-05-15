@@ -7,7 +7,6 @@ footer {
 
     svg {
         position: relative;
-        z-index: -1;
     }
 }
 
@@ -22,7 +21,7 @@ footer {
 }
 
 .footer_link--home {
-    left: 45px;
+    left: 40px;
 }
 
 .footer_link--insta {
@@ -40,7 +39,8 @@ footer {
     font-size: 35px;
     display: block !important;
     text-align: center;
-    padding-top: 6px;
+    padding-top: 7px;
+    margin-left: -1px;
 }
 
 .fa-instagram {

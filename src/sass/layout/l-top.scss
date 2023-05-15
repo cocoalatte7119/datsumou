@@ -1,21 +1,24 @@
 @use "../foundation/variable.scss" as var;
 @use "../foundation/mixin.scss" as mix;
 
-@include mix.sp {
-    body {
-        width: 100%;
-    }
 
-    .header_img {
-        width: 100%;
-    }
+body {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var.$base-color;
+    height: 100vh;
+}
 
-    .header_appeal-txt {
-        margin: 20px auto 0 auto;
-        text-align: center;
+.header_img {
+    width: 100%;
+}
 
-        p {
-            line-height: 30px;
-        }
+.header_appeal-txt {
+    margin: 20px auto 0 auto;
+    text-align: center;
+
+    p {
+        line-height: 30px;
     }
 }
