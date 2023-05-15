@@ -2,14 +2,6 @@
 @use "../foundation/mixin.scss" as mix;
 
 
-body {
-    max-width: 375px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: var.$base-color;
-    height: 100vh;
-}
-
 .header_img {
     width: 100%;
 }
