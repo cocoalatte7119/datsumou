@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/sass/layout/l-top.scss","../../src/sass/foundation/variable.scss"],"names":[],"mappings":"AAIA;EACI;EACA;EACA;EACA,kBCPS;EDQT;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;AAEA;EACI","file":"l-top.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/layout/l-top.scss"],"names":[],"mappings":"AAIA;EACI;;;AAGJ;EACI;EACA;;AAEA;EACI","file":"l-top.css"}
