@@ -14,9 +14,11 @@ body {
     max-width: 375px;
     margin: 0 auto;
     background-color: var.$base-color;
-    height: 100vh;
 }
 
-#wrapper {
+.wrap {
+    background-color: var.$base-color;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }

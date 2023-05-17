@@ -2,11 +2,11 @@
 @use "../foundation/mixin.scss" as mix;
 
 footer {
-    margin-top: 50px;
+    margin-top: auto;
     position: relative;
 
-    svg {
-        position: relative;
+    img {
+        width: 100%;
     }
 }
 
