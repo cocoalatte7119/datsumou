@@ -1,0 +1,23 @@
+html {
+  background-color: #E0FFFF;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #000;
+  cursor: default;
+  width: 100%;
+  font-size: 16px;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.wrap {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=base.css.map */

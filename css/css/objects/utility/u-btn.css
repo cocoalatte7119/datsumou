@@ -1,0 +1,43 @@
+.u-btn {
+  width: 100%;
+  text-align: center;
+}
+.u-btn button {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  background-color: #C6FFFF;
+  text-align: center;
+  color: #666;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0px 4px 0px 0px #95BFBF;
+}
+
+.u-btn {
+  width: 100%;
+  text-align: center;
+}
+.u-btn button {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  background-color: #C6FFFF;
+  text-align: center;
+  color: #666;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0px 4px 0px 0px #95BFBF;
+}
+.u-btn_back button {
+  background-color: #D4D4D4;
+  box-shadow: 0px 4px 0px 0px #949494;
+}
+
+/*# sourceMappingURL=u-btn.css.map */

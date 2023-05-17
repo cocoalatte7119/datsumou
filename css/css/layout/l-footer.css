@@ -1,0 +1,50 @@
+footer {
+  margin-top: auto;
+  position: relative;
+}
+footer img {
+  width: 100%;
+}
+
+.footer_link {
+  position: absolute;
+  top: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #BCFFFF;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer_link--home {
+  left: 40px;
+}
+
+.footer_link--insta {
+  right: 120px;
+}
+
+.footer_link--tiktok {
+  right: 30px;
+}
+
+.fa-home,
+.fa-instagram,
+.fa-tiktok {
+  color: #fff;
+  font-size: 35px;
+  display: block !important;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: -1px;
+}
+
+.fa-instagram {
+  padding-top: 8px;
+}
+
+.fa-tiktok {
+  padding-top: 8px;
+}
+
+/*# sourceMappingURL=l-footer.css.map */
