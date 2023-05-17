@@ -11,11 +11,13 @@ body {
   max-width: 375px;
   margin: 0 auto;
   background-color: #fff;
-  height: 100vh;
 }
 
-#wrapper {
+.wrap {
+  background-color: #fff;
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=base.css.map */

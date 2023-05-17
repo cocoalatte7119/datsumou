@@ -1,9 +1,9 @@
 footer {
-  margin-top: 50px;
+  margin-top: auto;
   position: relative;
 }
-footer svg {
-  position: relative;
+footer img {
+  width: 100%;
 }
 
 .footer_link {

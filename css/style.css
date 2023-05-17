@@ -407,11 +407,13 @@ body {
   max-width: 375px;
   margin: 0 auto;
   background-color: #fff;
-  height: 100vh;
 }
 
-#wrapper {
+.wrap {
+  background-color: #fff;
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header_img {
@@ -461,11 +463,11 @@ body {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: auto;
   position: relative;
 }
-footer svg {
-  position: relative;
+footer img {
+  width: 100%;
 }
 
 .footer_link {
