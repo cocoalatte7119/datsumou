@@ -434,8 +434,17 @@ body {
 
 .is-active {
   display: block;
+  animation: fadeout 1.5s ease-out forwards;
 }
 
+@keyframes fadeout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .question_title {
   font-size: 20px;
   color: #88CFEA;
@@ -485,11 +494,11 @@ footer img {
 }
 
 .footer_link--insta {
-  right: 120px;
+  right: 30px;
 }
 
 .footer_link--tiktok {
-  right: 30px;
+  right: 120px;
 }
 
 .fa-home,
@@ -538,9 +547,25 @@ footer img {
 .result_txt span {
   display: block;
 }
+.result_txt h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+.result_txt ul {
+  margin-left: 40px;
+}
+.result_txt li {
+  list-style-type: disc;
+  line-height: 150%;
+}
+.result_txt li:not(:first-of-type) {
+  margin-top: 10px;
+}
 
-img {
-  width: 50%;
+.result_img {
+  margin: 0 auto;
 }
 
 .u-tryangle {

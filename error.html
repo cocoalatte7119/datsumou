@@ -2,6 +2,17 @@
 <html lang="ja">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PCXNZCJ');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +20,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="src/js/result.js"></script>
-    <title>脱毛プロジェクト</title>
+    <title>美を求めるあなたへ</title>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCXNZCJ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript)  -->
+
     <div class="wrap">
         <main>
             <section class="result_contents">
@@ -26,25 +42,18 @@
                 </div>
                 <div class="u-btn u-btn_back question_btn" style="width: 85%;
                 margin: 20px auto 0 auto;">
-                    <button class="back" onclick="location.href='top.html'">ホームへ戻る</button>
+                    <button class="back click_error_home" onclick="location.href='index.html'">ホームへ戻る</button>
                 </div>
             </section>
         </main>
         <footer>
-            <svg width="375" height="110" viewBox="0 0 375 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 49.2638H375V110H0V49.2638Z" fill="#BCFFFF" />
-                <path
-                    d="M375 47.2393C375 73.3288 291.053 89 187.5 89C83.9466 89 0 73.3288 0 47.2393C0 21.1497 83.9466 0 187.5 0C291.053 0 375 21.1497 375 47.2393Z"
-                    fill="white" />
-            </svg>
+            <img src="img/footer_img.png" alt="">
             <div class="footer_link footer_link--home">
-                <a href="top.html"><i class="fas fa-home"></i></a>
+                <a class="click_footer_home" href="index.html"><i class="fas fa-home"></i></a>
             </div>
             <div class="footer_link footer_link--insta">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="footer_link footer_link--tiktok">
-                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a class="click_footer_instagram" href="https://www.instagram.com/full.beauty.off/"><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </footer>
     </div>

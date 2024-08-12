@@ -25,9 +25,25 @@
 .result_txt span {
   display: block;
 }
+.result_txt h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+.result_txt ul {
+  margin-left: 40px;
+}
+.result_txt li {
+  list-style-type: disc;
+  line-height: 150%;
+}
+.result_txt li:not(:first-of-type) {
+  margin-top: 10px;
+}
 
-img {
-  width: 50%;
+.result_img {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=l-result.css.map */
